@@ -36,13 +36,8 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
-        <Link
-          href="/"
-          className="text-white font-semibold text-lg tracking-tight hover:text-blue-400 transition-colors"
-        >
-          Linata Deshmukh
-        </Link>
+        {/* Logo placeholder — keeps flex layout balanced */}
+        <Link href="/" className="w-8" aria-label="Home" />
 
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-8">
